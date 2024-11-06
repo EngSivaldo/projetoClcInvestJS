@@ -1,1 +1,4 @@
-console.log("testando o github")
+import {turboLogger} from './turboLogger.js'
+
+console.log("testando o github");
+turboLogger("estou aprendendo o curso do git", "red");
